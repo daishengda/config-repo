@@ -13,4 +13,4 @@ spring:
 #  instance:
 #    prefer-ip-address: true
 env:
-  master11
+  master22222
