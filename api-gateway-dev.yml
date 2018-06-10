@@ -7,7 +7,7 @@ zuul:
       #敏感头过滤
       sensitive-headers: 
   #排除某些路由
-  ignored-patterns:
+  #ignored-patterns:
     - /**/product/list
     # 简洁写法
 #    product: /myProduct/**
