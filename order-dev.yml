@@ -12,6 +12,7 @@ spring:
   redis:
     host: 192.168.2.121
     port: 6379
+env: dev
 #eureka:
 #  client:
 #    service-url:
