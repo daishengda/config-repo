@@ -1,2 +1,13 @@
-env:
-  dev
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.2.121:3306/springcloud_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 192.168.2.121
+    port: 5672
+    username: guest
+    password: guest

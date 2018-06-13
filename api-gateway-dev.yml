@@ -1,4 +1,5 @@
 zuul:
+  #设置敏感头:Cookie,Set-Cookie,Authorization,设置之后那些将不会显示在浏览器中
   sensitive-headers: 
   routes:
     # /myProduct/product/list -> /product/product/list
